@@ -1,0 +1,117 @@
+<locale>
+	<!-- file version compatibility -->
+	<version locale_revision="$Revision: 22992 $" />
+	
+	<!-- context menu items -->
+	<element key="contextmenu.showhide.statistics" value="プレーヤーの統計情報を表示/非表示"  />
+	<element key="contextmenu.showhide.debug" value="デバッグ パネルを表示/非表示"  />
+	
+	<!-- MaxPlayerCode -->
+	<element key="maxplayercode.networkFailed" value="サーバーへ接続できません。"  />
+	<element key="maxplayercode.loginFailed" value="ログインに失敗しました。"  />
+	<element key="maxplayercode.loggingIn" value="ログイン中..."  />
+	
+	<!-- Deck -->
+	<element key="deck.ms" value="ms"  />
+	<element key="deck.fps" value="fps"  />
+	<element key="deck.ps" value="ps"  />
+	<element key="deck.rulerarea.tooltip" value="スクラブ バー"  />
+	<element key="deck.zoomControlArea.tooltip" value="タイムライン ズーミング バー"  />
+	<element key="deck.ruler.markin.tooltip" value="マーク イン"  />
+	<element key="deck.ruler.markout.tooltip" value="マーク アウト"  />
+	<element key="errorWindow.ok.button.label" value="OK"  />
+	
+	<!-- StatsPanel -->
+	<element key="statspanel.title" value="再生の統計情報:"  />
+	<element key="statspanel.raster" value="ビデオ ソース:"  />
+	<element key="statspanel.proxyspec" value="プロキシ品質:"  />
+	<element key="statspanel.frameratestats" value="フレーム レートCur/Avg:"  />
+	<element key="statspanel.framestats" value="フレーム調整/ドロップ:"  />
+	<element key="statspanel.seektime" value="シーク タイム:"  />
+	<element key="statspanel.ratestat" value="データ レート ビデオ/オーディオ:"  />
+	<element key="statspanel.buffer" value="バッファ ビデオ/オーディオ:"  />
+	<element key="statspanel.bufferTime" value="バッファ サイズ:"  />
+	
+	<!-- DebugPanel -->
+	<element key="debugpanel.title" value="デバッグ:"  />
+	<element key="debugpanel.categoryList.ALL" value="すべて"  />
+	<element key="debugpanel.stageFPS" value="ステージ フレーム レート:"  />
+	<element key="debugpanel.memory" value="メモリ使用状況:"  />
+	<element key="debugpanel.bytesTotal" value="受信バイト:"  />
+	<element key="debugpanel.rateCurrent" value="バイト レート:"  />
+	<element key="debugpanel.traceTitle" value="トレース:"  />
+	<element key="debugpanel.copy" value="コピー"  />
+	<element key="debugpanel.clear" value="クリア"  />
+	<element key="debugpanel.logLevel.prompt" value="ログ レベル"  />
+	<element key="debugpanel.disable" value="オフ"  />
+	<element key="debugpanel.fullformat" value="フルフォーマット" />
+	<element key="debugpanel.fetchingLog" value="ログを取得中..."  />
+	
+	<!-- MicrophoneSelector -->
+	<element key="micselector.close" value="閉じる"  />
+	
+	<!-- MaxplayerOptionsPanel -->
+	<element key="maxplayeroptpanel.serverScrubRdBtn" value="ファーストスクラブ"  />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="ノーマルスクラブ"  />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="Sを押してスクラブ モードを切り替え"  />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="Qを押して品質オプションを切り替え"  />
+	<element key="maxplayeroptpanel.btn_accpet" value="適用"  />
+	
+	<!-- DeckCode -->
+	<element key="deckcode.serverScrubEnabledText" value="-- ファーストスクラブ モード --"  />
+	<element key="deckcode.serverScrubDisabledText" value="-- ノーマルスクラブ モード --"  />
+	<element key="deckcode.loadingUrl" value="Video/EDLをロード中"  />
+	<element key="deckcode.sendFailed" value="Video/EDLのロードに失敗 - クライアントが接続されていません"  />
+	
+	<!-- DeckControlBar -->
+	<element key="deckcontrolbar.audioToggleBtn.tooltip" value="オーディオ パネルを表示/非表示"  />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="再生オプションを表示/非表示"  />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="スタートに移動"  />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="イン点へ移動"  />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="イン点をマーク"  />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="前のカット"  />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="前のフレーム"  />
+	<element key="deckcontrolbar.playBtn.tooltip" value="再生/停止"  />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="次のフレーム"  />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="次のカット"  />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="アウト点をマーク"  />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="アウト点へ移動"  />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="エンドに移動"  />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="ネイティブ ビデオ サイズ オン/オフ"  />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="フルスクリーン オン/オフ"  />
+	
+	<!-- InfoBlock -->
+	<element key="infoblock.currentTime.tooltip" value="タイムコード"  />
+	<element key="infoblock.duration.tooltip" value="デュレーション"  />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="ソース タイムコード"  />
+	<element key="infoblock.segmentDurationTime.tooltip" value="セグメント デュレーション"  />
+    <element key="infoblock.markIn.tooltip" value="イン点タイムコード"  />
+	<element key="infoblock.markOut.tooltip" value="アウト点タイムコード"  />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="タイムコード表示/フレーム番号表示"  />
+	
+	<!-- VariSpeedController -->
+	<element key="varispeedcontroller.area.tooltip" value="可変速再生バー"  />
+	<element key="varispeedcontroller.input.tooltip" value="再生速度値"  />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="再生モード"  />
+	<element key="varispeedcontroller.playback.mode.file" value="ファイル"  />
+	<element key="varispeedcontroller.playback.mode.frame" value="フレーム"  />
+	
+	<!-- Browser -->
+	<element key="browser.headerText.nameCol" value="名前"  />
+	<element key="browser.headerText.durationCol" value="デュレーション"  />
+	<element key="browser.headerText.displayCol" value="表示"  />
+	<element key="browser.headerText.fpsCol" value="フレーム レート"  />
+	<element key="browser.headerText.formatCol" value="フォーマット"  />
+	<element key="browser.headerText.dateCol" value="日付"  />
+	<element key="browser.headerText.File" value="ファイル"  />
+	
+	<!-- Quality List -->
+	<element key="playback.quality.low" value="低"  />
+	<element key="playback.quality.medium" value="中"  />
+	<element key="playback.quality.high" value="高"  />
+
+	<!-- Frame based playback error overlays -->
+	<element key="playback.error.mediaOffline" value="メディア オフライン"  />
+	<element key="playback.error.captureInProgress" value="進行中のキャプチャ"  />
+
+</locale>

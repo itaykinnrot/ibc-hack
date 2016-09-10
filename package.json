@@ -1,0 +1,16 @@
+{
+  "name": "ibc-hack",
+  "version": "1.0.0",
+  "dependencies": {
+    "@google-cloud/vision": "^0.1.1",
+    "async": "^1.5.0",
+    "natural": "^0.4.0",
+    "redis": "^2.6.0-2"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

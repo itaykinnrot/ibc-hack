@@ -1,0 +1,73 @@
+<locale><!-- file version compatibility --><version locale_revision="$Revision: 22992 $" /><!-- context menu items --><element key="contextmenu.showhide.statistics" value="Oynatıcı istatistiklerini göster/gizle" />
+	<element key="contextmenu.showhide.debug" value="Hata ayıklama panelini göster/gizle" /><!-- MaxPlayerCode --><element key="maxplayercode.networkFailed" value="Sunucuya bağlanılamıyor." />
+	<element key="maxplayercode.loginFailed" value="Oturum açılamadı." />
+	<element key="maxplayercode.loggingIn" value="Oturum açılıyor..." /><!-- Deck --><element key="deck.ms" value="ms" />
+	<element key="deck.fps" value="fps" />
+	<element key="deck.ps" value="ps" />
+	<element key="deck.rulerarea.tooltip" value="Temizleme Çubuğu" />
+	<element key="deck.zoomControlArea.tooltip" value="Zaman Çizgisi Yakınlaştırma Çubuğu" />
+	<element key="deck.ruler.markin.tooltip" value="Giriş İşareti" />
+	<element key="deck.ruler.markout.tooltip" value="Çıkış İşareti" />
+	<element key="errorWindow.ok.button.label" value="Tamam" /><!-- StatsPanel --><element key="statspanel.title" value="Oynatma İstatistikleri" />
+	<element key="statspanel.raster" value="Video Kaynağı:" />
+	<element key="statspanel.proxyspec" value="Proxy Kalitesi:" />
+	<element key="statspanel.frameratestats" value="Kare Hızı Geç/Ort:" />
+	<element key="statspanel.framestats" value="Ayarlanan/Bırakılan Kare:" />
+	<element key="statspanel.seektime" value="Arama Zamanı:" />
+	<element key="statspanel.ratestat" value="Veri Hızı Video/Ses:" />
+	<element key="statspanel.buffer" value="Video/Ses Arabelleğe Alma:" />
+	<element key="statspanel.bufferTime" value="Arabellek boyutu:" /><!-- DebugPanel --><element key="debugpanel.title" value="Hata ayıklama:" />
+	<element key="debugpanel.categoryList.ALL" value="TÜMÜ" />
+	<element key="debugpanel.stageFPS" value="Sahne Kare Hızı:" />
+	<element key="debugpanel.memory" value="Bellek Kullanımı:" />
+	<element key="debugpanel.bytesTotal" value="Alınan Bayt:" />
+	<element key="debugpanel.rateCurrent" value="Bayt Hızı:" />
+	<element key="debugpanel.traceTitle" value="İz:" />
+	<element key="debugpanel.copy" value="Kopyala" />
+	<element key="debugpanel.clear" value="Temizle" />
+	<element key="debugpanel.logLevel.prompt" value="Kayıt Düzeyi" />
+	<element key="debugpanel.disable" value="Devre Dışı Bırak" />
+	<element key="debugpanel.fullformat" value="Tam Biçim" />
+	<element key="debugpanel.fetchingLog" value="Günlük Getiriliyor..." /><!-- MicrophoneSelector --><element key="micselector.close" value="Kapat" /><!-- MaxplayerOptionsPanel --><element key="maxplayeroptpanel.serverScrubRdBtn" value="Hızlı Temizleme" />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="Normal Temizleme" />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="Temizleme Modları Arasında Geçiş Yapmak için S Harfine Basın" />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="Kalite Seçenekleri Arasında Dolaşmak için Q Harfine Basın" />
+	<element key="maxplayeroptpanel.btn_accpet" value="Uygula" /><!-- DeckCode --><element key="deckcode.serverScrubEnabledText" value="-- Hızlı temizleme modu --" />
+	<element key="deckcode.serverScrubDisabledText" value="-- Normal temizleme modu --" />
+	<element key="deckcode.loadingUrl" value="Video/EDL Yükleniyor" />
+	<element key="deckcode.sendFailed" value="Video/EDL Yüklenemedi - istemci bağlı değil" /><!-- DeckControlBar --><element key="deckcontrolbar.audioToggleBtn.tooltip" value="Ses Panelini Göster/Gizle" />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="Oynatma Seçeneklerini Göster/Gizle" />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="Başlangıca Git" />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="Giriş İşaretine Git" />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="Giriş İşareti Noktası" />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="Önceki Kesim" />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="Önceki Kare" />
+	<element key="deckcontrolbar.playBtn.tooltip" value="Oynat/Duraklat" />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="Sonraki Kare" />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="Sonraki Kesim" />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="Çıkış İşareti Noktası" />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="Çıkış İşaretine Git" />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="Sona Git" />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="Asıl Video Boyutu Açık/Kapalı" />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="Tam Ekran Açık/Kapalı" /><!-- InfoBlock --><element key="infoblock.currentTime.tooltip" value="Zaman Kodu" />
+	<element key="infoblock.duration.tooltip" value="Süre" />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="Kaynak Zaman Kodu" />
+	<element key="infoblock.segmentDurationTime.tooltip" value="Segment Süresi" />
+    <element key="infoblock.markIn.tooltip" value="Giriş Noktası Zaman Kodu" />
+	<element key="infoblock.markOut.tooltip" value="Çıkış Noktası Zaman Kodu" />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="Zaman Kodu Görüntüsü/Kare Numarası Görüntüsü" /><!-- VariSpeedController --><element key="varispeedcontroller.area.tooltip" value="Değişken Hızlı Oynatma Çubuğu" />
+	<element key="varispeedcontroller.input.tooltip" value="Oynatma Hız Değeri" />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="Oynatma Modu" />
+	<element key="varispeedcontroller.playback.mode.file" value="Dosya" />
+	<element key="varispeedcontroller.playback.mode.frame" value="Kare" /><!-- Browser --><element key="browser.headerText.nameCol" value="Ad" />
+	<element key="browser.headerText.durationCol" value="Süre" />
+	<element key="browser.headerText.displayCol" value="Görüntü" />
+	<element key="browser.headerText.fpsCol" value="Kare Hızı" />
+	<element key="browser.headerText.formatCol" value="Biçim" />
+	<element key="browser.headerText.dateCol" value="Tarih" />
+	<element key="browser.headerText.File" value="Dosya" /><!-- Quality List --><element key="playback.quality.low" value="Düşük" />
+	<element key="playback.quality.medium" value="Orta" />
+	<element key="playback.quality.high" value="Yüksek" /><!-- Frame based playback error overlays --><element key="playback.error.mediaOffline" value="Ortam Çevrimdışı" />
+	<element key="playback.error.captureInProgress" value="Yakalama işlemi devam ediyor" />
+
+</locale>

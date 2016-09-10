@@ -1,0 +1,117 @@
+<locale>
+	<!-- file version compatibility -->
+	<version locale_revision="$Revision: 22992 $" />
+	
+	<!-- context menu items -->
+	<element key="contextmenu.showhide.statistics" value="显示/隐藏播放器统计信息"  />
+	<element key="contextmenu.showhide.debug" value="显示/隐藏调试面板"  />
+	
+	<!-- MaxPlayerCode -->
+	<element key="maxplayercode.networkFailed" value="无法连接至服务器。"  />
+	<element key="maxplayercode.loginFailed" value="登录失败。"  />
+	<element key="maxplayercode.loggingIn" value="正在登录..."  />
+	
+	<!-- Deck -->
+	<element key="deck.ms" value="ms"  />
+	<element key="deck.fps" value="fps"  />
+	<element key="deck.ps" value="ps"  />
+	<element key="deck.rulerarea.tooltip" value="刷听栏"  />
+	<element key="deck.zoomControlArea.tooltip" value="时间线伸缩栏"  />
+	<element key="deck.ruler.markin.tooltip" value="标记入点"  />
+	<element key="deck.ruler.markout.tooltip" value="标记出点"  />
+	<element key="errorWindow.ok.button.label" value="确定"  />
+	
+	<!-- StatsPanel -->
+	<element key="statspanel.title" value="播放统计信息:"  />
+	<element key="statspanel.raster" value="视频源:"  />
+	<element key="statspanel.proxyspec" value="代理质量:"  />
+	<element key="statspanel.frameratestats" value="当前/平均帧率:"  />
+	<element key="statspanel.framestats" value="帧 调整/丢失:"  />
+	<element key="statspanel.seektime" value="寻道时间:"  />
+	<element key="statspanel.ratestat" value="视频/音频数据传输率:"  />
+	<element key="statspanel.buffer" value="视频/音频缓冲:"  />
+	<element key="statspanel.bufferTime" value="缓存大小:"  />
+	
+	<!-- DebugPanel -->
+	<element key="debugpanel.title" value="调试:"  />
+	<element key="debugpanel.categoryList.ALL" value="全部"  />
+	<element key="debugpanel.stageFPS" value="阶段帧率:"  />
+	<element key="debugpanel.memory" value="内存用量:"  />
+	<element key="debugpanel.bytesTotal" value="接收字节:"  />
+	<element key="debugpanel.rateCurrent" value="字节率:"  />
+	<element key="debugpanel.traceTitle" value="跟踪:"  />
+	<element key="debugpanel.copy" value="复制"  />
+	<element key="debugpanel.clear" value="清除"  />
+	<element key="debugpanel.logLevel.prompt" value="日志级别"  />
+	<element key="debugpanel.disable" value="禁用"  />
+	<element key="debugpanel.fullformat" value="完整格式" />
+	<element key="debugpanel.fetchingLog" value="正在提取日志..."  />
+	
+	<!-- MicrophoneSelector -->
+	<element key="micselector.close" value="关闭"  />
+	
+	<!-- MaxplayerOptionsPanel -->
+	<element key="maxplayeroptpanel.serverScrubRdBtn" value="快速刷听"  />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="标准刷听"  />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="按 S 切换刷听模式"  />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="按 Q 切换质量选项"  />
+	<element key="maxplayeroptpanel.btn_accpet" value="应用"  />
+	
+	<!-- DeckCode -->
+	<element key="deckcode.serverScrubEnabledText" value="-- 快速刷听模式 --"  />
+	<element key="deckcode.serverScrubDisabledText" value="-- 标准刷听模式 --"  />
+	<element key="deckcode.loadingUrl" value="正在加载视频/EDL"  />
+	<element key="deckcode.sendFailed" value="视频/EDL 加载失败 - 未连接客户端"  />
+	
+	<!-- DeckControlBar -->
+	<element key="deckcontrolbar.audioToggleBtn.tooltip" value="显示/隐藏音频面板"  />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="显示/隐藏播放选项"  />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="转至起点"  />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="转至入点"  />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="标记入点"  />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="上一剪辑点"  />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="上一帧"  />
+	<element key="deckcontrolbar.playBtn.tooltip" value="播放/暂停"  />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="下一帧"  />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="下一剪辑点"  />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="标记出点"  />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="转至出点"  />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="转至终点"  />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="原始视频大小开/关"  />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="全屏开/关"  />
+	
+	<!-- InfoBlock -->
+	<element key="infoblock.currentTime.tooltip" value="时间码"  />
+	<element key="infoblock.duration.tooltip" value="时长"  />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="源时间码"  />
+	<element key="infoblock.segmentDurationTime.tooltip" value="片断时长"  />
+    <element key="infoblock.markIn.tooltip" value="入点时间码"  />
+	<element key="infoblock.markOut.tooltip" value="出点时间码"  />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="时间码显示/帧数显示"  />
+	
+	<!-- VariSpeedController -->
+	<element key="varispeedcontroller.area.tooltip" value="变速播放栏"  />
+	<element key="varispeedcontroller.input.tooltip" value="播放速度值"  />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="播放模式"  />
+	<element key="varispeedcontroller.playback.mode.file" value="文件"  />
+	<element key="varispeedcontroller.playback.mode.frame" value="帧"  />
+	
+	<!-- Browser -->
+	<element key="browser.headerText.nameCol" value="名称"  />
+	<element key="browser.headerText.durationCol" value="时长"  />
+	<element key="browser.headerText.displayCol" value="显示"  />
+	<element key="browser.headerText.fpsCol" value="帧率"  />
+	<element key="browser.headerText.formatCol" value="格式"  />
+	<element key="browser.headerText.dateCol" value="日期"  />
+	<element key="browser.headerText.File" value="文件"  />
+	
+	<!-- Quality List -->
+	<element key="playback.quality.low" value="低"  />
+	<element key="playback.quality.medium" value="中"  />
+	<element key="playback.quality.high" value="高"  />
+
+	<!-- Frame based playback error overlays -->
+	<element key="playback.error.mediaOffline" value="媒体脱机"  />
+	<element key="playback.error.captureInProgress" value="正在采集"  />
+
+</locale>

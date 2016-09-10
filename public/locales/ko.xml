@@ -1,0 +1,117 @@
+<locale>
+	<!-- file version compatibility -->
+	<version locale_revision="$Revision: 22992 $" />
+	
+	<!-- context menu items -->
+	<element key="contextmenu.showhide.statistics" value="플레이어 통계 표시/숨기기"  />
+	<element key="contextmenu.showhide.debug" value="디버그 분할창 표시/숨기기"  />
+	
+	<!-- MaxPlayerCode -->
+	<element key="maxplayercode.networkFailed" value="서버에 연결할 수 없습니다."  />
+	<element key="maxplayercode.loginFailed" value="로그인 실패."  />
+	<element key="maxplayercode.loggingIn" value="로그인 중..."  />
+	
+	<!-- Deck -->
+	<element key="deck.ms" value="ms"  />
+	<element key="deck.fps" value="fps"  />
+	<element key="deck.ps" value="ps"  />
+	<element key="deck.rulerarea.tooltip" value="스크럽 바"  />
+	<element key="deck.zoomControlArea.tooltip" value="타임라인 줌 바"  />
+	<element key="deck.ruler.markin.tooltip" value="마크 인"  />
+	<element key="deck.ruler.markout.tooltip" value="마크 아웃"  />
+	<element key="errorWindow.ok.button.label" value="확인"  />
+	
+	<!-- StatsPanel -->
+	<element key="statspanel.title" value="플레이백 통계:"  />
+	<element key="statspanel.raster" value="비디오 소스:"  />
+	<element key="statspanel.proxyspec" value="프록시 품질:"  />
+	<element key="statspanel.frameratestats" value="프레임 속도 현재/평균:"  />
+	<element key="statspanel.framestats" value="조정/드롭된 프레임:"  />
+	<element key="statspanel.seektime" value="시크 타임:"  />
+	<element key="statspanel.ratestat" value="데이터 레이트 비디오/오디오:"  />
+	<element key="statspanel.buffer" value="버퍼 비디오/오디오:"  />
+	<element key="statspanel.bufferTime" value="버퍼 크기:"  />
+	
+	<!-- DebugPanel -->
+	<element key="debugpanel.title" value="디버그:"  />
+	<element key="debugpanel.categoryList.ALL" value="모두"  />
+	<element key="debugpanel.stageFPS" value="스테이지 프레임 속도:"  />
+	<element key="debugpanel.memory" value="메모리 사용량:"  />
+	<element key="debugpanel.bytesTotal" value="수신된 바이트:"  />
+	<element key="debugpanel.rateCurrent" value="바이트 레이트:"  />
+	<element key="debugpanel.traceTitle" value="트레이스:"  />
+	<element key="debugpanel.copy" value="복사"  />
+	<element key="debugpanel.clear" value="지우기"  />
+	<element key="debugpanel.logLevel.prompt" value="로그 레벨"  />
+	<element key="debugpanel.disable" value="비활성화"  />
+	<element key="debugpanel.fullformat" value="전체 포맷" />
+	<element key="debugpanel.fetchingLog" value="로그 가져오는 중..."  />
+	
+	<!-- MicrophoneSelector -->
+	<element key="micselector.close" value="닫기"  />
+	
+	<!-- MaxplayerOptionsPanel -->
+	<element key="maxplayeroptpanel.serverScrubRdBtn" value="빠른 스크럽"  />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="일반 스크럽"  />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="S를 눌러 스크럽 모드로 전환"  />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="Q를 눌러 품질 옵션 전환"  />
+	<element key="maxplayeroptpanel.btn_accpet" value="적용"  />
+	
+	<!-- DeckCode -->
+	<element key="deckcode.serverScrubEnabledText" value="-- 빠른 스크럽 모드 --"  />
+	<element key="deckcode.serverScrubDisabledText" value="-- 일반 스크럽 모드 --"  />
+	<element key="deckcode.loadingUrl" value="비디오/EDL 로딩"  />
+	<element key="deckcode.sendFailed" value="비디오/EDL 로딩 실패 - 클라이언트 연결 안됨"  />
+	
+	<!-- DeckControlBar -->
+	<element key="deckcontrolbar.audioToggleBtn.tooltip" value="오디오 분할창 표시/숨기기"  />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="플레이백 옵션 표시/숨기기"  />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="시작으로 이동"  />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="인 포인트로 이동"  />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="마크 인 포인트"  />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="이전 컷"  />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="이전 프레임"  />
+	<element key="deckcontrolbar.playBtn.tooltip" value="재생/일시정지"  />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="다음 프레임"  />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="다음 컷"  />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="마크 아웃 포인트"  />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="아웃 포인트로 이동"  />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="끝으로 이동"  />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="네이티브 비디오 크기 온/오프"  />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="전체 화면 온/오프"  />
+	
+	<!-- InfoBlock -->
+	<element key="infoblock.currentTime.tooltip" value="타임코드"  />
+	<element key="infoblock.duration.tooltip" value="길이"  />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="소스 타임코드"  />
+	<element key="infoblock.segmentDurationTime.tooltip" value="세그먼트 길이"  />
+    <element key="infoblock.markIn.tooltip" value="인 포인트 타임코드"  />
+	<element key="infoblock.markOut.tooltip" value="아웃 포인트 타임코드"  />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="타임코드 표시/프레임 번호 표시"  />
+	
+	<!-- VariSpeedController -->
+	<element key="varispeedcontroller.area.tooltip" value="가변 속도 플레이백 바"  />
+	<element key="varispeedcontroller.input.tooltip" value="플레이백 속도 값"  />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="플레이백 모드"  />
+	<element key="varispeedcontroller.playback.mode.file" value="파일"  />
+	<element key="varispeedcontroller.playback.mode.frame" value="프레임"  />
+	
+	<!-- Browser -->
+	<element key="browser.headerText.nameCol" value="이름"  />
+	<element key="browser.headerText.durationCol" value="길이"  />
+	<element key="browser.headerText.displayCol" value="디스플레이"  />
+	<element key="browser.headerText.fpsCol" value="프레임 속도"  />
+	<element key="browser.headerText.formatCol" value="포맷"  />
+	<element key="browser.headerText.dateCol" value="날짜"  />
+	<element key="browser.headerText.File" value="파일"  />
+	
+	<!-- Quality List -->
+	<element key="playback.quality.low" value="낮음"  />
+	<element key="playback.quality.medium" value="중간"  />
+	<element key="playback.quality.high" value="높음"  />
+
+	<!-- Frame based playback error overlays -->
+	<element key="playback.error.mediaOffline" value="미디어 오프라인"  />
+	<element key="playback.error.captureInProgress" value="캡처 중"  />
+
+</locale>

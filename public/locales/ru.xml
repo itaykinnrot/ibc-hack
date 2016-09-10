@@ -1,0 +1,118 @@
+﻿<locale>
+	<!-- file version compatibility -->
+	<version locale_revision="$Revision: 22992 $" />
+	
+	<!-- context menu items -->
+	<element key="contextmenu.showhide.statistics" value="Показать/скрыть статистику проигрывателя" />
+	<element key="contextmenu.showhide.debug" value="Показать/скрыть панель отладки" />
+	
+	<!-- MaxPlayerCode -->
+	<element key="maxplayercode.networkFailed" value="Установить соединение с сервером невозможно." />
+	<element key="maxplayercode.loginFailed" value="Войти не удалось." />
+	<element key="maxplayercode.loggingIn" value="Выполняется вход…" />
+	
+	<!-- Deck -->
+	<element key="deck.ms" value="мс" />
+	<element key="deck.fps" value="кадров/с" />
+	<element key="deck.ps" value="в/сек" />
+	<element key="deck.rulerarea.tooltip" value="Полоса разбивки" />
+	<element key="deck.zoomControlArea.tooltip" value="Полоса масштаба временной шкалы" />
+	<element key="deck.ruler.markin.tooltip" value="Отметить вход" />
+	<element key="deck.ruler.markout.tooltip" value="Отметить выход" />
+	<element key="errorWindow.ok.button.label" value="ОК" />
+	
+	<!-- StatsPanel -->
+	<element key="statspanel.title" value="Статистика воспроизведения:" />
+	<element key="statspanel.raster" value="Источник видео:" />
+	<element key="statspanel.proxyspec" value="Качество прокси:" />
+	<element key="statspanel.frameratestats" value="Тек./сред. частота кадров:" />
+	<element key="statspanel.framestats" value="Кадров адаптировано/пропущено:" />
+	<element key="statspanel.seektime" value="Время поиска:" />
+	<element key="statspanel.ratestat" value="Скорость передачи данных видео/аудио:" />
+	<element key="statspanel.buffer" value="Буфер видео/аудио:" />
+	<element key="statspanel.bufferTime" value="Buffer size:" />
+	
+	<!-- DebugPanel -->
+	<element key="debugpanel.title" value="Отладка:" />
+	<element key="debugpanel.categoryList.ALL" value="ВСЕ" />
+	<element key="debugpanel.stageFPS" value="Частота кадров рабочей области:" />
+	<element key="debugpanel.memory" value="Использование памяти:" />
+	<element key="debugpanel.bytesTotal" value="Получено байт:" />
+	<element key="debugpanel.rateCurrent" value="Скорость передачи данных:" />
+	<element key="debugpanel.traceTitle" value="Трассировка:" />
+	<element key="debugpanel.copy" value="Копировать" />
+	<element key="debugpanel.clear" value="Очистить" />
+	<element key="debugpanel.logLevel.prompt" value="Уровень журнала" />
+	<element key="debugpanel.disable" value="Деактивировать" />
+	<element key="debugpanel.fullformat" value="Полный формат" />
+	<element key="debugpanel.fetchingLog" value="Вызов журнала…" />
+	
+	<!-- MicrophoneSelector -->
+	<element key="micselector.close" value="Закрыть" />
+	
+	<!-- MaxplayerOptionsPanel -->
+	<element key="maxplayeroptpanel.serverScrubRdBtn" value="Быстрая разбивка" />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="Стандартная разбивка" />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="Нажмите S для переключения режимов разбивки" />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="Нажмите Q для прокрутки параметров качества" />
+	<element key="maxplayeroptpanel.btn_accpet" value="Применить" />
+	
+	<!-- DeckCode -->
+	<element key="deckcode.serverScrubEnabledText" value="-- Режим быстрой разбивки --" />
+	<element key="deckcode.serverScrubDisabledText" value="-- Режим стандартной разбивки --" />
+	<element key="deckcode.loadingUrl" value="Загрузка видео/монтажного листа" />
+	<element key="deckcode.sendFailed" value="Не удалось загрузить видео/монтажный лист" />
+	
+	<!-- DeckControlBar -->
+	<element key="deckcontrolbar.audioToggleBtn.tooltip" value="Показать/скрыть панель аудио" />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="Показать/скрыть параметры воспроизведения" />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="Перейти в начало" />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="Перейти к точке входа" />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="Отметить точку входа" />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="Предыдущий отрезок" />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="Предыдущий кадр" />
+	<element key="deckcontrolbar.playBtn.tooltip" value="Воспроизвести/остановить" />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="Следующий кадр" />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="Следующий отрезок" />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="Отметить точку выхода" />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="Перейти к точке выхода" />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="Перейти в конец" />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="Вкл./выкл. исходный размер видео" />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="Вкл./выкл. полный экран" />
+	
+	<!-- InfoBlock -->
+	<element key="infoblock.currentTime.tooltip" value="Таймкод" />
+	<element key="infoblock.duration.tooltip" value="Продолжительность" />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="Таймкод источника" />
+	<element key="infoblock.segmentDurationTime.tooltip" value="Продолжительность сегмента" />
+	<!-- Is it Segment Duration or Source Duration? -->
+    <element key="infoblock.markIn.tooltip" value="Таймкод точки входа" />
+	<element key="infoblock.markOut.tooltip" value="Таймкод точки выхода" />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="Отображение таймкода/номера кадра" />
+	
+	<!-- VariSpeedController -->
+	<element key="varispeedcontroller.area.tooltip" value="Полоса воспроизведения с регулируемой скоростью" />
+	<element key="varispeedcontroller.input.tooltip" value="Значение скорости воспроизведения" />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="Режим воспроизведения" />
+	<element key="varispeedcontroller.playback.mode.file" value="Файл" />
+	<element key="varispeedcontroller.playback.mode.frame" value="Кадр" />
+	
+	<!-- Browser -->
+	<element key="browser.headerText.nameCol" value="Имя" />
+	<element key="browser.headerText.durationCol" value="Продолжительность" />
+	<element key="browser.headerText.displayCol" value="Отображение" />
+	<element key="browser.headerText.fpsCol" value="Частота кадров" />
+	<element key="browser.headerText.formatCol" value="Формат" />
+	<element key="browser.headerText.dateCol" value="Дата" />
+	<element key="browser.headerText.File" value="Файл" />
+	
+	<!-- Quality List -->
+	<element key="playback.quality.low" value="Низкое" />
+	<element key="playback.quality.medium" value="Среднее" />
+	<element key="playback.quality.high" value="Высокое" />
+
+	<!-- Frame based playback error overlays -->
+	<element key="playback.error.mediaOffline" value="Media Offline" />
+	<element key="playback.error.captureInProgress" value="Capture in progress" />
+
+</locale> 

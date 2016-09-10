@@ -1,0 +1,117 @@
+<locale>
+	<!-- file version compatibility -->
+	<version locale_revision="$Revision: 22992 $" />
+	
+	<!-- context menu items -->
+	<element key="contextmenu.showhide.statistics" value="Show/hide player statistics" />
+	<element key="contextmenu.showhide.debug" value="Show/hide debug panel" />
+	
+	<!-- MaxPlayerCode -->
+	<element key="maxplayercode.networkFailed" value="Cannot connect to server." />
+	<element key="maxplayercode.loginFailed" value="Login failed." />
+	<element key="maxplayercode.loggingIn" value="Logging in..." />
+	
+	<!-- Deck -->
+	<element key="deck.ms" value="ms" />
+	<element key="deck.fps" value="fps" />
+	<element key="deck.ps" value="ps" />
+	<element key="deck.rulerarea.tooltip" value="Scrub Bar" />
+	<element key="deck.zoomControlArea.tooltip" value="Timeline Zooming Bar" />
+	<element key="deck.ruler.markin.tooltip" value="Mark In" />
+	<element key="deck.ruler.markout.tooltip" value="Mark Out" />
+	<element key="errorWindow.ok.button.label" value="OK" />
+	
+	<!-- StatsPanel -->
+	<element key="statspanel.title" value="Playback Statistics:" />
+	<element key="statspanel.raster" value="Video Source:" />
+	<element key="statspanel.proxyspec" value="Proxy Quality:" />
+	<element key="statspanel.frameratestats" value="Frame Rate Cur/Avg:" />
+	<element key="statspanel.framestats" value="Frames Adjusted/Dropped:" />
+	<element key="statspanel.seektime" value="Seek Time:" />
+	<element key="statspanel.ratestat" value="Data Rate Video/Audio:" />
+	<element key="statspanel.buffer" value="Buffer Video/Audio:" />
+	<element key="statspanel.bufferTime" value="Buffer size:" />
+	
+	<!-- DebugPanel -->
+	<element key="debugpanel.title" value="Debug:" />
+	<element key="debugpanel.categoryList.ALL" value="ALL" />
+	<element key="debugpanel.stageFPS" value="Stage Frame Rate:" />
+	<element key="debugpanel.memory" value="Memory Usage:" />
+	<element key="debugpanel.bytesTotal" value="Bytes Received:" />
+	<element key="debugpanel.rateCurrent" value="Bytes Rate:" />
+	<element key="debugpanel.traceTitle" value="Trace:" />
+	<element key="debugpanel.copy" value="Copy" />
+	<element key="debugpanel.clear" value="Clear" />
+	<element key="debugpanel.logLevel.prompt" value="Log Level" />
+	<element key="debugpanel.disable" value="Disable" />
+	<element key="debugpanel.fullformat" value="Full Format" />
+	<element key="debugpanel.fetchingLog" value="Fetching Log..." />
+	
+	<!-- MicrophoneSelector -->
+	<element key="micselector.close" value="Close" />
+	
+	<!-- MaxplayerOptionsPanel -->
+	<element key="maxplayeroptpanel.serverScrubRdBtn" value="Fast-Scrub" />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="Normal-Scrub" />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="Press S to Toggle Scrub Modes" />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="Press Q to Cycle Quality Options" />
+	<element key="maxplayeroptpanel.btn_accpet" value="Apply" />
+	
+	<!-- DeckCode -->
+	<element key="deckcode.serverScrubEnabledText" value="-- Fast scrub mode --" />
+	<element key="deckcode.serverScrubDisabledText" value="-- Normal scrub mode --" />
+	<element key="deckcode.loadingUrl" value="Loading Video/EDL" />
+	<element key="deckcode.sendFailed" value="Video/EDL Failed to Load - client not connected" />
+	
+	<!-- DeckControlBar -->
+	<element key="deckcontrolbar.audioToggleBtn.tooltip" value="Show/Hide Audio Panel" />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="Show/Hide Playback Options" />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="Go to Start" />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="Go to In Point" />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="Mark In Point" />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="Previous Cut" />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="Previous Frame" />
+	<element key="deckcontrolbar.playBtn.tooltip" value="Play/Pause" />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="Next Frame" />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="Next Cut" />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="Mark Out Point" />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="Go to Out Point" />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="Go to End" />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="Native Video Size On/Off" />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="Fullscreen On/Off" />
+	
+	<!-- InfoBlock -->
+	<element key="infoblock.currentTime.tooltip" value="Timecode" />
+	<element key="infoblock.duration.tooltip" value="Duration" />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="Source Timecode" />
+	<element key="infoblock.segmentDurationTime.tooltip" value="Segment Duration" />
+    <element key="infoblock.markIn.tooltip" value="In Point Timecode" />
+	<element key="infoblock.markOut.tooltip" value="Out Point Timecode" />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="Timecode Display/Frame NUmber Display" />
+	
+	<!-- VariSpeedController -->
+	<element key="varispeedcontroller.area.tooltip" value="Variable Speed Playback Bar" />
+	<element key="varispeedcontroller.input.tooltip" value="Playback Speed Value" />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="Playback Mode" />
+	<element key="varispeedcontroller.playback.mode.file" value="File" />
+	<element key="varispeedcontroller.playback.mode.frame" value="Frame" />
+	
+	<!-- Browser -->
+	<element key="browser.headerText.nameCol" value="Name" />
+	<element key="browser.headerText.durationCol" value="Duration" />
+	<element key="browser.headerText.displayCol" value="Display" />
+	<element key="browser.headerText.fpsCol" value="Frame Rate" />
+	<element key="browser.headerText.formatCol" value="Format" />
+	<element key="browser.headerText.dateCol" value="Date" />
+	<element key="browser.headerText.File" value="File" />
+	
+	<!-- Quality List -->
+	<element key="playback.quality.low" value="Low" />
+	<element key="playback.quality.medium" value="Medium" />
+	<element key="playback.quality.high" value="High" />
+
+	<!-- Frame based playback error overlays -->
+	<element key="playback.error.mediaOffline" value="Media Offline" />
+	<element key="playback.error.captureInProgress" value="Capture in progress" />
+
+</locale>

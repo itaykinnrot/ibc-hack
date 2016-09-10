@@ -1,0 +1,343 @@
+.AICPSP {
+	width:100%;
+	height:100%;
+    display: inline-block;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+}
+
+.AICPSP_INFO {
+    height: 30px;
+}
+
+.AICPSP_TC {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    font-family: monospace;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.AICPSP_TC_LEFT {
+    width: 33.3%;
+    text-align: left;
+    float:left;
+    white-space: nowrap;
+}
+
+.AICPSP_TC_CENTER {
+    width: 33.3%;
+    text-align: center;
+    float:left;
+    white-space: nowrap;
+}
+
+.AICPSP_TC_RIGHT {
+    width: 33.3%;
+    text-align: right;
+    float:left;
+    white-space: nowrap;
+}
+
+
+
+.AICPSP_TC1 {
+}
+
+.AICPSP_TC2 {
+}
+
+.AICPSP_TC3 {
+}
+
+.AICPSP_TC4 {
+}
+
+
+.AICPSP_SCRUB {
+	margin: 0px 20px 10px 20px;
+    height: 22px;
+    border: 1px solid black;
+    /* IE10 */
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #C9C9C9 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #C9C9C9 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #C9C9C9 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #C9C9C9));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #C9C9C9 100%);
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top, #FFFFFF 0%, #C9C9C9 100%);
+}
+
+.AICPSP_TIMELINE_BACKGROUND img {
+	position: absolute;
+}
+
+
+
+.AICPSP_CONTROLS {
+	text-align: center;
+    margin: 0px 20px 5px 20px;
+}
+
+
+.AICPSP_CONTROL {
+	width: 23px;
+	height: 23px;
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+	border: 1px solid black;
+	/* IE10 */
+	background-image: -ms-linear-gradient(top, #EEEEEE 40%, #CCCCCC 60%);
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(top, #EEEEEE 40%, #CCCCCC 60%);
+	/* Opera */
+	background-image: -o-linear-gradient(top, #EEEEEE 40%, #CCCCCC 60%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #EEEEEE), color-stop(0.6, #CCCCCC));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(top, #EEEEEE 40%, #CCCCCC 60%);
+	/* Proposed W3C Markup */
+	background-image: linear-gradient(top, #EEEEEE 40%, #CCCCCC 60%);
+}
+
+.AICPSP_CONTROL:hover {
+    /* IE10 */
+    background-image: -ms-linear-gradient(top, #CCCCCC 40%, #CCCCCC 60%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #CCCCCC 40%, #CCCCCC 60%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #CCCCCC 40%, #CCCCCC 60%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #CCCCCC), color-stop(0.6, #CCCCCC));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #CCCCCC 40%, #CCCCCC 60%);
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top, #CCCCCC 40%, #CCCCCC 60%);
+}
+
+.AICPSP_CONTROL:active {
+    /* IE10 */
+    background-image: -ms-linear-gradient(top, #BBBBBB 40%, #CCCCCC 60%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #BBBBBB 40%, #CCCCCC 60%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #BBBBBB 40%, #CCCCCC 60%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #BBBBBB), color-stop(0.6, #CCCCCC));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #BBBBBB 40%, #CCCCCC 60%);
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top, #BBBBBB 40%, #CCCCCC 60%);
+}
+
+.AICPSP_CONTROLS_LEFT {
+	float: left;
+}
+
+.AICPSP_CONTROLS_RIGHT {
+	float: right;
+}
+
+.AICPSP_CONTROLS_MIDDLE {
+    display: inline-block;
+}
+
+
+.AICPSP_BOTTOM {
+	position: absolute;
+	height: 110px;
+	width: 100%;
+}
+
+.AICPSP_VARISPEED {
+    margin: 10px 20px 0px 20px;
+    background-color: #000;
+    height: 30px;
+}
+
+.AICPSP_VARISPEED_DISPLAY {
+
+}
+
+
+.AICPSP_head {
+    position: absolute;
+}
+
+.AICPSP_markIn {
+    position: absolute;
+}
+
+.AICPSP_markOut {
+    position: absolute;
+}
+
+
+
+
+
+.AICPSP_CONTENT {
+    display: relative;
+}
+
+
+
+.AICPSP_VIDEO_CONTAINER {
+	position: absolute;
+}
+
+
+
+.AICPSP_PROGRESS {
+	position:absolute;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+.AICPSP_PROGRESS_BLOCK_HELPER {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.AICPSP_PROGRESS_BLOCK {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.AICPSP_PROGRESS_TEXT {
+	display: inline-block;
+	padding-top: 40px;
+	color: white;
+}
+
+.AICPSP_PROGRESS img {
+	position: absolute;
+}
+
+
+
+/*
+	Statistics panel
+
+*/
+
+
+.AICPSP_STATISTICS {
+	position:absolute;
+	text-align: center;
+	display: none;
+}
+
+.AICPSP_STATISTICS_BLOCK_HELPER {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.AICPSP_STATISTICS_BLOCK {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	text-align: left;
+	border: 1px solid white;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	height: 218px;
+}
+
+.AICPSP_STATISTICS_BLOCK TH {
+	padding-bottom: 14px;
+}
+
+.AICPSP_STATISTICS_BLOCK TD {
+	width: 150px;
+	padding-bottom: 8px;
+}
+
+
+.AICPSP_STATISTICS_BUFFER_VALUE div {
+	background-image: url(/static/images/bufferBarsBackground.png);
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-right: 5px;
+}
+
+.AICPSP_STATISTICS_BUFFER_VALUE div div {
+	overflow: hidden;
+}
+
+
+
+
+
+/*
+	Debug panel
+
+*/
+.AICPSP_DEBUG {
+	position: absolute;
+	text-align: center;
+	display: none;
+}
+
+
+.AICPSP_DEBUG_BLOCK_HELPER {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.AICPSP_DEBUG_BLOCK {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	text-align: left;
+	border: 1px solid white;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	height: 218px;
+}
+
+.AICPSP_DEBUG_BLOCK TH {
+	padding-bottom: 14px;
+}
+
+.AICPSP_DEBUG_BLOCK TD {
+	width: 190px;
+	padding-bottom: 8px;
+}
+
+.AICPSP_DEBUG_LOG_LINES {
+	height: 220px;
+	overflow-y: scroll;
+}
+
+.AICPSP_DEBUG_LOG_LINE {
+	background-color: transparent;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.AICPSP_DEBUG_LOG_LINE_ACTIVE {
+	background-color: grey;
+	padding: 5px;
+	cursor: pointer;
+}

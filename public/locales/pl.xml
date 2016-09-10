@@ -1,0 +1,119 @@
+﻿<locale>
+
+   <!-- file version compatibility -->
+   <version locale_revision="$Revision: 22992 $" />
+
+  ﻿<!-- context menu items -->        
+  <element key="contextmenu.showhide.statistics" value="Pokaż/Ukryj statystyki odtwarzania"/>
+  <element key="contextmenu.showhide.debug" value="Pokaż/Ukryj panel debugowania"/>
+
+  <!-- MaxPlayerCode -->
+  <element key="maxplayercode.networkFailed" value="Nie można się połączyć z serwerem."/>
+  <element key="maxplayercode.loginFailed" value="Logowanie się nie powiodło."/>
+  <element key="maxplayercode.loggingIn" value="Trwa logowanie..."/>
+
+  <!-- Deck -->
+  <element key="deck.ms" value="ms"/>
+  <element key="deck.fps" value="klatek/s"/>
+  <element key="deck.ps" value="/s"/>
+  <element key="deck.rulerarea.tooltip" value="Pasek przeglądania"/>
+  <element key="deck.zoomControlArea.tooltip" value="Pasek powiększania timeline"/>
+  <element key="deck.ruler.markin.tooltip" value="Znacznik początku"/>
+  <element key="errorWindow.ok.button.label" value="OK"/>
+  <element key="deck.ruler.markout.tooltip" value="Mark Out"/>
+
+
+  <!-- StatsPanel -->
+  <element key="statspanel.title" value="Statystyki odtwarzania:"/>
+  <element key="statspanel.raster" value="Źródło video:"/>
+  <element key="statspanel.proxyspec" value="Jakość proxy:"/>
+  <element key="statspanel.frameratestats" value="Bież./śr. liczba klatek na sekundę:"/>
+  <element key="statspanel.framestats" value="Klatki dopasowane/pominięte:"/>
+  <element key="statspanel.seektime" value="Czas wyszukiwania:"/>
+  <element key="statspanel.ratestat" value="Szybkość transmisji danych video/audio:"/>
+  <element key="statspanel.buffer" value="Bufor video/audio:"/>
+  <element key="statspanel.bufferTime" value="Buffer size:" />
+
+  <!-- DebugPanel -->
+  <element key="debugpanel.title" value="Debuguj:"/>
+  <element key="debugpanel.categoryList.ALL" value="WSZYSTKO"/>
+  <element key="debugpanel.stageFPS" value="Liczba klatek na sekundę sceny:"/>
+  <element key="debugpanel.memory" value="Użycie pamięci:"/>
+  <element key="debugpanel.bytesTotal" value="Liczba odebranych bajtów:"/>
+  <element key="debugpanel.rateCurrent" value="Szybkość transmisji:"/>
+  <element key="debugpanel.traceTitle" value="Śledzenie:"/>
+  <element key="debugpanel.copy" value="Kopiuj"/>
+  <element key="debugpanel.clear" value="Wyczyść"/>
+  <element key="debugpanel.logLevel.prompt" value="Poziom rejestrowania"/>
+  <element key="debugpanel.disable" value="Wyłącz"/>
+  <element key="debugpanel.fullformat" value="Pełny format" />
+  <element key="debugpanel.fetchingLog" value="Pobieranie logu..."/>
+
+  <!-- MicrophoneSelector -->
+  <element key="micselector.close" value="Zamknij"/>
+
+  <!-- MaxplayerOptionsPanel -->
+  <element key="maxplayeroptpanel.serverScrubRdBtn" value="Szybkie przeglądanie"/>
+  <element key="maxplayeroptpanel.gopScrubRdBtn" value="Normalne przeglądanie"/>
+  <element key="maxplayeroptpanel.pressStoToggleScrub" value="Naciśnij klawisz S, aby przełączać pomiędzy trybami przeglądania"/>
+  <element key="maxplayeroptpanel.pressQtoCycleQuality" value="Naciśnij klawisz Q, aby przełączać pomiędzy opcjami jakości"/>
+  <element key="maxplayeroptpanel.btn_accpet" value="Zastosuj"/>
+
+  <!-- DeckCode -->
+  <element key="deckcode.serverScrubEnabledText" value="-- Tryb szybkiego przeglądania --"/>
+  <element key="deckcode.serverScrubDisabledText" value="-- Tryb normalnego przeglądania --"/>
+  <element key="deckcode.loadingUrl" value="Ładowanie pliku video/EDL"/>
+  <element key="deckcode.sendFailed" value="Ładowanie pliku video/EDL się nie powiodło."/>
+
+  <!-- DeckControlBar -->
+  <element key="deckcontrolbar.audioToggleBtn.tooltip" value="Pokaż/Ukryj panel"/>
+  <element key="deckcontrolbar.optionsBtn.tooltip" value="Pokaż/Ukryj opcje odtwarzania"/>
+  <element key="deckcontrolbar.toBeginBtn.tooltip" value="Przejdź na początek"/>
+  <element key="deckcontrolbar.toMarkInBtn.tooltip" value="Przejdź do punktu początkowego"/>
+  <element key="deckcontrolbar.markInBtn.tooltip" value="Zaznacz punkt początkowy"/>
+  <element key="deckcontrolbar.seqSkipBack.tooltip" value="Poprzednie ujęcie"/>
+  <element key="deckcontrolbar.backOneBtn.tooltip" value="Poprzednia klatka"/>
+  <element key="deckcontrolbar.playBtn.tooltip" value="Odtwórz/Pauza"/>
+  <element key="deckcontrolbar.forwardOneBtn.tooltip" value="Następna klatka"/>
+  <element key="deckcontrolbar.seqSkipForward.tooltip" value="Następne ujęcie"/>
+  <element key="deckcontrolbar.markOutBtn.tooltip" value="Zaznacz punkt końcowy"/>
+  <element key="deckcontrolbar.toMarkOutBtn.tooltip" value="Przejdź do punktu końcowego"/>
+  <element key="deckcontrolbar.toEndBtn.tooltip" value="Przejdź na koniec"/>
+  <element key="deckcontrolbar.oneToOneBtn.tooltip" value="Rozmiar pliku video bez kompresji Wł/Wył"/>
+  <element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="Pełny ekran Wł/Wył"/>
+
+  <!-- InfoBlock -->
+  <element key="infoblock.currentTime.tooltip" value="Timecode"/>
+  <element key="infoblock.duration.tooltip" value="Czas trwania"/>
+  <element key="infoblock.segmentCurrentTime.tooltip" value="Timecode źródła"/>
+  <element key="infoblock.segmentDurationTime.tooltip" value="Czas trwania segmentu"/>
+  <element key="infoblock.markIn.tooltip" value="Timecode punktu początkowego"/>
+  <element key="infoblock.markOut.tooltip" value="Timecode punktu końcowego"/>
+  <element key="infoblock.toggleTimecodeFrame.tooltip" value="Wyświetlanie timecode/wyświetlanie numeru klatki"/>
+
+  <!-- VariSpeedController -->
+  <element key="varispeedcontroller.area.tooltip" value="Pasek odtwarzania zmiennej szybkości"/>
+  <element key="varispeedcontroller.input.tooltip" value="Szybkość odtwarzania"/>
+  <element key="varispeedcontroller.playback.mode.tooltip" value="Tryb odtwarzania"/>
+  <element key="varispeedcontroller.playback.mode.file" value="Plik"/>
+  <element key="varispeedcontroller.playback.mode.frame" value="Klatka"/>
+
+  <!-- Browser -->
+  <element key="browser.headerText.nameCol" value="Nazwa"/>
+  <element key="browser.headerText.durationCol" value="Czas trwania"/>
+  <element key="browser.headerText.displayCol" value="Wyświetlanie"/>
+  <element key="browser.headerText.fpsCol" value="Liczba klatek na sekundę"/>
+  <element key="browser.headerText.formatCol" value="Format"/>
+  <element key="browser.headerText.dateCol" value="Data"/>
+  <element key="browser.headerText.File" value="Plik"/>
+
+  <!-- Quality List -->
+  <element key="playback.quality.low" value="Low" />
+  <element key="playback.quality.medium" value="Medium" />
+  <element key="playback.quality.high" value="High" />
+
+  <!-- Frame based playback error overlays -->
+  <element key="playback.error.mediaOffline" value="Media Offline" />
+  <element key="playback.error.captureInProgress" value="Capture in progress" />
+
+</locale>

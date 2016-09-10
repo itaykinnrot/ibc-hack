@@ -1,0 +1,73 @@
+<locale><!-- file version compatibility --><version locale_revision="$Revision: 22992 $" /><!-- context menu items --><element key="contextmenu.showhide.statistics" value="إظهار/إخفاء إحصائيات المشغّل" />
+	<element key="contextmenu.showhide.debug" value="إظهار/إخفاء لوحة تصحيح الأخطاء" /><!-- MaxPlayerCode --><element key="maxplayercode.networkFailed" value="يتعذر الاتصال بالخادم" />
+	<element key="maxplayercode.loginFailed" value="تعذر تسجيل الدخول." />
+	<element key="maxplayercode.loggingIn" value="يتم الآن تسجيل الدخول..." /><!-- Deck --><element key="deck.ms" value="ms" />
+	<element key="deck.fps" value="fps" />
+	<element key="deck.ps" value="ps" />
+	<element key="deck.rulerarea.tooltip" value="شريط التنقيح" />
+	<element key="deck.zoomControlArea.tooltip" value="شريط تكبير/تصغير المخطط الزمني" />
+	<element key="deck.ruler.markin.tooltip" value="نقطة البداية" />
+	<element key="deck.ruler.markout.tooltip" value="نقطة النهاية" />
+	<element key="errorWindow.ok.button.label" value="موافق" /><!-- StatsPanel --><element key="statspanel.title" value="إحصائيات التشغيل:" />
+	<element key="statspanel.raster" value="مصدر الفيديو:" />
+	<element key="statspanel.proxyspec" value="جودة الوكيل:" />
+	<element key="statspanel.frameratestats" value="معدل الإطارات الحالي/المتوسط:" />
+	<element key="statspanel.framestats" value="الإطارات المعدلة/المبعدة:" />
+	<element key="statspanel.seektime" value="زمن الانتقال:" />
+	<element key="statspanel.ratestat" value="صوت/فيديو معدل البيانات:" />
+	<element key="statspanel.buffer" value="تخزين مؤقت للصوت/الفيديو:" />
+	<element key="statspanel.bufferTime" value="حجم التخزين المؤقت:" /><!-- DebugPanel --><element key="debugpanel.title" value="تصحيح الأخطاء:" />
+	<element key="debugpanel.categoryList.ALL" value="الكل" />
+	<element key="debugpanel.stageFPS" value="معدل إطارات المرحلة:" />
+	<element key="debugpanel.memory" value="استخدام الذاكرة:" />
+	<element key="debugpanel.bytesTotal" value="وحدات البايت المتلقاة:" />
+	<element key="debugpanel.rateCurrent" value="معدل وحدات البايت:" />
+	<element key="debugpanel.traceTitle" value="تتبع:" />
+	<element key="debugpanel.copy" value="نسخ" />
+	<element key="debugpanel.clear" value="مسح" />
+	<element key="debugpanel.logLevel.prompt" value="مستوى السجل" />
+	<element key="debugpanel.disable" value="تعطيل" />
+	<element key="debugpanel.fullformat" value="تنسيق كامل" />
+	<element key="debugpanel.fetchingLog" value="إحضار السجل..." /><!-- MicrophoneSelector --><element key="micselector.close" value="إغلاق" /><!-- MaxplayerOptionsPanel --><element key="maxplayeroptpanel.serverScrubRdBtn" value="تنقيح سريع" />
+	<element key="maxplayeroptpanel.gopScrubRdBtn" value="تنقيح عادي" />
+	<element key="maxplayeroptpanel.pressStoToggleScrub" value="اضغط S للتبديل بين أوضاع التنقيح" />
+	<element key="maxplayeroptpanel.pressQtoCycleQuality" value="اضغط Q لتمرير خيارات الجودة" />
+	<element key="maxplayeroptpanel.btn_accpet" value="تطبيق" /><!-- DeckCode --><element key="deckcode.serverScrubEnabledText" value="-- وضع التنقيح السريع --" />
+	<element key="deckcode.serverScrubDisabledText" value="-- وضع التنقيح العادي --" />
+	<element key="deckcode.loadingUrl" value="يتم الآن تحميل فيديو/EDL" />
+	<element key="deckcode.sendFailed" value="تعذر تحميل فيديو/EDL - العميل غير متصل" /><!-- DeckControlBar --><element key="deckcontrolbar.audioToggleBtn.tooltip" value="إظهار/إخفاء لوحة الصوت" />
+	<element key="deckcontrolbar.optionsBtn.tooltip" value="إظهار/إخفاء خيارات التشغيل" />
+	<element key="deckcontrolbar.toBeginBtn.tooltip" value="الانتقال إلى البدء" />
+	<element key="deckcontrolbar.toMarkInBtn.tooltip" value="الانتقال إلى نقطة البداية" />
+	<element key="deckcontrolbar.markInBtn.tooltip" value="تحديد نقطة البداية" />
+	<element key="deckcontrolbar.seqSkipBack.tooltip" value="القص السابق" />
+	<element key="deckcontrolbar.backOneBtn.tooltip" value="الإطار السابق" />
+	<element key="deckcontrolbar.playBtn.tooltip" value="تشغيل/إيقاف مؤقت" />
+	<element key="deckcontrolbar.forwardOneBtn.tooltip" value="الإطار التالي" />
+	<element key="deckcontrolbar.seqSkipForward.tooltip" value="القص التالي" />
+	<element key="deckcontrolbar.markOutBtn.tooltip" value="تحديد نقطة النهاية" />
+	<element key="deckcontrolbar.toMarkOutBtn.tooltip" value="الانتقال إلى نقطة النهاية" />
+	<element key="deckcontrolbar.toEndBtn.tooltip" value="الانتقال إلى النهاية" />
+	<element key="deckcontrolbar.oneToOneBtn.tooltip" value="تشغيل/إيقاف تشغيل حجم الفيديو الأصلي" />
+	<element key="deckcontrolbar.fullscreenToggleBtn.tooltip" value="تشغيل/إيقاف تشغيل ملء الشاشة" /><!-- InfoBlock --><element key="infoblock.currentTime.tooltip" value="رمز الوقت" />
+	<element key="infoblock.duration.tooltip" value="المدة" />
+	<element key="infoblock.segmentCurrentTime.tooltip" value="رمز الوقت المصدر" />
+	<element key="infoblock.segmentDurationTime.tooltip" value="مدة المقطع" />
+    <element key="infoblock.markIn.tooltip" value="رمز وقت نقطة البداية" />
+	<element key="infoblock.markOut.tooltip" value="رمز وقت نقطة النهاية" />
+	<element key="infoblock.toggleTimecodeFrame.tooltip" value="عرض عدد الإطارات/عرض رمز الوقت" /><!-- VariSpeedController --><element key="varispeedcontroller.area.tooltip" value="شريط تشغيل سرعة متغيرة" />
+	<element key="varispeedcontroller.input.tooltip" value="قيمة سرعة التشغيل" />
+	<element key="varispeedcontroller.playback.mode.tooltip" value="وضع التشغيل" />
+	<element key="varispeedcontroller.playback.mode.file" value="الملف" />
+	<element key="varispeedcontroller.playback.mode.frame" value="إطار" /><!-- Browser --><element key="browser.headerText.nameCol" value="الاسم" />
+	<element key="browser.headerText.durationCol" value="المدة" />
+	<element key="browser.headerText.displayCol" value="العرض" />
+	<element key="browser.headerText.fpsCol" value="معدل الإطارات" />
+	<element key="browser.headerText.formatCol" value="التنسيق" />
+	<element key="browser.headerText.dateCol" value="التاريخ" />
+	<element key="browser.headerText.File" value="الملف" /><!-- Quality List --><element key="playback.quality.low" value="منخفض" />
+	<element key="playback.quality.medium" value="متوسط" />
+	<element key="playback.quality.high" value="مرتفع" /><!-- Frame based playback error overlays --><element key="playback.error.mediaOffline" value="الوسائط دون اتصال" />
+	<element key="playback.error.captureInProgress" value="الالتقاط قيد التقدم" />
+
+</locale>
