@@ -2,24 +2,62 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
     <script src="morpheusclient.js"></script>
     <script src="heatmap.js"></script>
 
-    <title></title>
-    <style>
-
-    </style>
+    <title>Skipaclass</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" target="_blank" href="main.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,700'>
 </head>
 <body>
-      <video id="main-video"  src="1.mp4" controls autoplay></video>
+<div class='menu'>
+    <img class='logo' src='logo.png'>
+    <!--
+    <div class='modes'>
+        <div class='student'>Student</div>
+        <div class='lecturer'>Lecturer</div>
+    </div>-->
+</div>
+      <video id="main-video"  src="2.mp4" controls autoplay ></video>
       <div id="mainVideo"></div>
       <video id="user-video"></video>
       <canvas id="user-canvas"></canvas>
-      <canvas id="heatmap" style="width:100%"></canvas>
+      <canvas id="heatmap" style="width:100%;display:none"></canvas>
+<br>
+<div id="bar" class='bar'>
+
+</div>
       <script src="adpator.js"></script>
       <script src="main.js"></script>
+
+<script>
+
+    //Fill bar
+    var bar =''
+    for (var i=0;i<100;i++){
+        bar += "<div id='p"+i+"'></div>";
+    }
+    document.getElementById("bar").innerHTML = bar;
+
+    //Placement
+    var wh = $(window).height();
+
+    var vh = wh * 0.8
+    var vm = wh * 0.03
+    var vw = vh * 1.78
+    var pw = vw / 100
+
+    $('video').css({'height':vh});
+    $('.bar').css({'height':vm,'width':vw});
+    $('.bar div').css({'height':vm,'width':pw});
+
+</script>
 
 </body>
 </html>

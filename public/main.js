@@ -2,7 +2,27 @@
  * Created by itayk on 10/09/16.
  * Google-api:AIzaSyDQH3J7Ptpa8hnK9E_6lMD2UrGeSJJt72w
  */
+
+$( function() {
+	$( document ).tooltip({
+		position: {
+			my: "center bottom-20",
+			at: "center top",
+			using: function( position, feedback ) {
+				$( this ).css( position );
+				$( "<div>" )
+					.addClass( "arrow" )
+					.addClass( feedback.vertical )
+					.addClass( feedback.horizontal )
+					.appendTo( this );
+			}
+		}
+	});
+} );
 (function() { 'use strict';
+	var lectureMode = false;
+	var showStudent = false;
+	var showHeatMap = false;
 	var mainVideo = $('#main-video' ).get(0);
 	var video = $( '#user-video' ).get( 0 );
 	var emotionData = {};
@@ -27,7 +47,13 @@
 		storageBucket: "ibc-hack.appspot.com"
 	};
 	firebase.initializeApp(config);
-
+	if (showHeatMap){
+		$("#heatmap" ).show();
+	}
+	if (!showStudent){
+		$("#user-video" ).hide();
+		$("#user-canvas" ).hide();
+	}
 	function handleSuccess( stream ) {
 		window.stream = stream; // make stream available to browser console
 		video.srcObject = stream;
@@ -82,7 +108,7 @@
 							 lastData = currentResult;
 							 $.each( currentResult , function ( item , value ) {
 								 if ( value ) {
-									 firebase.database().ref( videoName + "/" + Math.round( currentTime || mainVideo.currentTime ) + "/" + item ).push( isLecture);
+									 firebase.database().ref( videoName + "/" + Math.round( currentTime || mainVideo.currentTime ) + "/" + item ).push( lectureMode);
 
 								 }
 							 } )
@@ -131,69 +157,77 @@
 	////////////////
 	/// Player
 	////////////////
-	function Player(host, username, password, key) {
-		var playerMorpheus = MorpheusClient.loadComponent("HTML5", "", "minimal.conf", "mainVideo", "en", {wmode:"opaque"},
-			function onLoad(e) {
-				// add listeners
-				playerMorpheus.addEventListener("user.login", function onLogin(e) {
-					if (!e.status.isSuccessful())
-						return console.error(e.status.message);
-					playerMorpheus.load("asset", key, "AUTO", -1, {}, false, false);
-				});
-				playerMorpheus.addEventListener("deck.load", function onMediaLoaded(e) {
-					if (!e.status.isSuccessful())
-						return console.error(e.status.message);
-					frame_rate = e.params.metadata.video_fps;
-				//	console.log("Player loaded");
-				});
-				playerMorpheus.addEventListener("deck.image", function onImage(e) {
-				//	console.log(e.params);
-				});
-				playerMorpheus.addEventListener("deck.audio", function onImage(e) {
-				//	console.log(e.params);
-				});
-				playerMorpheus.addEventListener("deck.head", function onHead(e) {
-				//	console.log(e.params);
-					if ( e.params.frame % 20 == 0) {
-						takePicture(e.params.image.toBase64(), e.params.frame/frame_rate)
-					}
-				});
+	if (lectureMode) {
+		$("#mainVideo" ).show();
+		$("#main-video" ).hide();
+		var  Player = function( host , username , password , key ) {
+			var playerMorpheus = MorpheusClient.loadComponent( "HTML5" , "" , "minimal.conf" , "mainVideo" , "en" , {wmode: "opaque"} ,
+				function onLoad( e ) {
+					// add listeners
+					playerMorpheus.addEventListener( "user.login" , function onLogin( e ) {
+						if ( !e.status.isSuccessful() )
+							return console.error( e.status.message );
+						playerMorpheus.load( "asset" , key , "AUTO" , -1 , {} , false , false );
+					} );
+					playerMorpheus.addEventListener( "deck.load" , function onMediaLoaded( e ) {
+						if ( !e.status.isSuccessful() )
+							return console.error( e.status.message );
+						frame_rate = e.params.metadata.video_fps;
+						window.player.playerMorpheus.play();
+						//	console.log("Player loaded");
+					} );
+					playerMorpheus.addEventListener( "deck.image" , function onImage( e ) {
+						//	console.log(e.params);
+					} );
+					playerMorpheus.addEventListener( "deck.audio" , function onImage( e ) {
+						//	console.log(e.params);
+					} );
+					playerMorpheus.addEventListener( "deck.head" , function onHead( e ) {
+						//	console.log(e.params);
+						if ( e.params.frame % 40 == 0 ) {
+							takePicture( e.params.image.toBase64() , e.params.frame / frame_rate )
+						}
+					} );
 
-				// login
-				playerMorpheus.login("UMS", host, username, password, null);
-			},
-			function onLoadFailed() {
-				console.error("Couldn't load the player");
-			});
+					// login
+					playerMorpheus.login( "UMS" , host , username , password , null );
+				} ,
+				function onLoadFailed() {
+					console.error( "Couldn't load the player" );
+				} );
 
-		this.playerMorpheus = playerMorpheus;
-	};
+			this.playerMorpheus = playerMorpheus;
+		};
 
-	Player.prototype.getFrame = function (frame, width, height, compression) {
-		this.playerMorpheus.call("get", "deck.image", {
-			name:"asset",
-			frame:frame,
-			width:width,
-			height:height,
-			compression:compression
-			//type:"ByteArray"
-		});
+		Player.prototype.getFrame = function ( frame , width , height , compression ) {
+			this.playerMorpheus.call( "get" , "deck.image" , {
+				name: "asset" ,
+				frame: frame ,
+				width: width ,
+				height: height ,
+				compression: compression
+				//type:"ByteArray"
+			} );
+		}
+
+		Player.prototype.getAudio = function ( frame , length , bits_per_sample , frames_per_second ) {
+			this.playerMorpheus.getAudio( "asset" , frame , length , bits_per_sample , frames_per_second );
+		}
+
+
+		window.player;
+
+		window.addEventListener( "load" , function () {
+			// /clips/Derbi_FH_1080i_50_DVCPRO.mp4
+			// /clips/Turkish_Soccer_1st_Half.mp4
+			// /clips/Turkish_Soccer_2nd_Half.mp4
+
+			window.player = new Player( "52.53.228.115" , "Bob" , "HackFest42" , "/clips/happiness.mp4" );
+
+		} );
+	}  else {
+		$("#mainVideo" ).hide();
 	}
-
-	Player.prototype.getAudio = function (frame, length, bits_per_sample, frames_per_second) {
-		this.playerMorpheus.getAudio("asset", frame, length, bits_per_sample, frames_per_second);
-	}
-
-
-	window.player;
-
-	window.addEventListener("load", function () {
-		// /clips/Derbi_FH_1080i_50_DVCPRO.mp4
-		// /clips/Turkish_Soccer_1st_Half.mp4
-		// /clips/Turkish_Soccer_2nd_Half.mp4
-
-		window.player = new Player("52.53.228.115", "Bob", "HackFest42", "/clips/strings.mp4");
-	});
 
 
 	///////////////
@@ -205,39 +239,65 @@
 		var total = mainVideo.duration;
 		var presentedData = [];
 		var width = $("#heatmap" ).width();
+		var heat_map = $("#heatmap" ).get(0);
+		heat_map.width = width;
 		$.each(data,function(index,item){
 			var weight = 0;
 			$.each(item,function(name,values){
+				var countItems = countObjects(values,lectureMode);
+				var niceName = '';
 				if (name == "happy") {
-					//var countHappy = count(values);
-					weight = 5
+
+					weight = countItems;
+					niceName = "enjoyable";
+
 
 				}
 				if (name =="seekBack"){
-					weight = 18
+					weight = countItems;
+					niceName = "very important!!";
 				}
 				if (name =="anger"){
-					weight = 10
+					weight = countItems;
+					niceName = "difficult"
 				}
 				if (name == "surprise"){
-					weight = 12;
+					weight = countItems;
+					niceName = "surprising"
 				}
+				presentedData.push([(index/total)*width ,10,weight]);
+				var precentage = Math.round(index/total*100);
+				if (countItems > 3){
+					countItems = 3
+				}
+				var people = "people";
+				if (countItems ==1){
+					people = "person";
+				}
+				$("#p" + precentage ).addClass(name + countItems ).attr("title",countItems +" "+people+" found it " + niceName);
+
 			})
 
-			presentedData.push([(index/total)*width ,10,weight]);
+
 		});
 		if (heat){
 			heat.clear();
 		}
-		heat = simpleheat('heatmap').data(presentedData).max(18);
-		heat.radius(4,4);
+		heat = simpleheat('heatmap').data(presentedData).max(30);
+		heat.radius(4,8);
 		heat.resize();
 		heat.draw();
 	})
-	function countObjects(obj){
+	function countObjects(obj,lectureMode){
 		var count = 0;
-		$.each(obj,function(index){
-			count++;
+		//if value is true then its the lecture and not the students ...
+		$.each(obj,function(index,value){
+			if (value == "true"){
+				if (lectureMode)
+				count++
+			} else {
+				count++;
+			}
 		})
 		return count;
 	}
