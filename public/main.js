@@ -47,6 +47,19 @@ $( function() {
 		storageBucket: "ibc-hack.appspot.com"
 	};
 	firebase.initializeApp(config);
+
+	var queries = {};
+	$.each(document.location.search.substr(1).split('&'),function(c,q){
+		var i = q.split('=');
+		queries[i[0].toString()] = i[1].toString();
+	});
+	if (queries["name"]){
+		videoName = queries["name"];
+	}
+	if (queries["mode"]){
+		lectureMode = queries["mode"] == "2";
+	}
+
 	if (showHeatMap){
 		$("#heatmap" ).show();
 	}
